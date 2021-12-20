@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include saiotx_home *.css
+recursive-include saiotx_home *.csv
+recursive-include saiotx_home *.html
+recursive-include saiotx_home *.ico
+recursive-include saiotx_home *.js
+recursive-include saiotx_home *.json
+recursive-include saiotx_home *.md
+recursive-include saiotx_home *.png
+recursive-include saiotx_home *.py
+recursive-include saiotx_home *.svg
+recursive-include saiotx_home *.txt
+recursive-exclude saiotx_home *.pyc
